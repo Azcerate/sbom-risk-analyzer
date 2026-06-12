@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "SBOM-Risk-Analyzer: Exploitability-Weighted Vulnerability Prioritization for SBOMs"
+authors:
+  - family-names: Saunders
+    given-names: Anthony N.
+    name-suffix: "MSCS, CISM, CISA"
+type: software
+license: MIT
+repository-code: "https://github.com/Azcerate/sbom-risk-analyzer"
+url: "https://github.com/Azcerate/sbom-risk-analyzer"
+version: "0.1.0"
+date-released: "2026-06-12"
+keywords:
+    - sbom
+    - vulnerability-management
+    - epss
+    - cisa-kev
+    - software-supply-chain
+    - cyclonedx
