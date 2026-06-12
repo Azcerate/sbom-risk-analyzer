@@ -1,0 +1,17 @@
+{
+  "kev": ["CVE-2021-44228"],
+  "vulns": {
+    "log4j-core": [
+      {"id": "GHSA-jfh8-c2jp-5v3q", "cve": "CVE-2021-44228", "cvss": 10.0,
+       "epss": 0.97, "summary": "Log4Shell: remote code execution via JNDI lookup."}
+    ],
+    "requests": [
+      {"id": "GHSA-x84v-xcm2-53pg", "cve": "CVE-2018-18074", "cvss": 9.8,
+       "epss": 0.32, "summary": "Credential leak on redirect to different host."}
+    ],
+    "lodash": [
+      {"id": "GHSA-jf85-cpcp-j695", "cve": "CVE-2019-10744", "cvss": 9.1,
+       "epss": 0.10, "summary": "Prototype pollution in defaultsDeep."}
+    ]
+  }
+}
