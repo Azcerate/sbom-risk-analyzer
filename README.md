@@ -1,9 +1,9 @@
-# sbom-risk-analyzer
+﻿# SBOM-Risk-Analyzer
 
 Turn a **CycloneDX** or **SPDX** SBOM into a **prioritized vulnerability risk
 report**. It enriches each component with vulnerability data from **OSV.dev**,
 exploit-prediction scores from **FIRST EPSS**, and active-exploitation status
-from the **CISA KEV** catalog — then ranks findings the way a real
+from the **CISA KEV** catalog â€” then ranks findings the way a real
 vuln-management program does: *fix what is being exploited first.*
 
 ## Why this matters
@@ -45,7 +45,7 @@ tier  = Critical if KEV, else High >=12, Medium >=6, Low otherwise
 
 KEV dominates because it means real-world active exploitation. EPSS (0..1
 probability) is the next strongest signal. The model is small and documented in
-[`sbomrisk/score.py`](sbomrisk/score.py) — tune the weights to your risk appetite.
+[`sbomrisk/score.py`](sbomrisk/score.py) â€” tune the weights to your risk appetite.
 
 ## Example output
 
@@ -57,7 +57,7 @@ probability) is the next strongest signal. The model is small and documented in
 
 ## Data sources
 
-OSV.dev · FIRST EPSS API · CISA Known Exploited Vulnerabilities catalog.
+OSV.dev Â· FIRST EPSS API Â· CISA Known Exploited Vulnerabilities catalog.
 
 ## Development
 
@@ -67,4 +67,4 @@ pip install -e . pytest && pytest -q
 
 ## License
 
-MIT © 2026 Anthony N. Saunders
+MIT Â© 2026 Anthony N. Saunders
